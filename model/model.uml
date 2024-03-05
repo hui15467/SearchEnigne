@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hust.cs.javacourse.search.index.AbstractDocument</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1197.0">hust.cs.javacourse.search.run.TestSearchIndex</node>
+    <node x="396.0" y="1051.0">hust.cs.javacourse.search.index.AbstractTermTuple</node>
+    <node x="123.0" y="348.0">hust.cs.javacourse.search.index.impl.Index</node>
+    <node x="1022.0" y="1051.0">hust.cs.javacourse.search.index.AbstractDocumentBuilder</node>
+    <node x="0.0" y="1051.0">hust.cs.javacourse.search.index.AbstractIndexBuilder</node>
+    <node x="0.0" y="447.0">hust.cs.javacourse.search.query.AbstractHit</node>
+    <node x="0.0" y="905.0">hust.cs.javacourse.search.parse.AbstractTermTupleScanner</node>
+    <node x="619.0" y="1051.0">hust.cs.javacourse.search.util.StopWords</node>
+    <node x="776.5" y="928.0">hust.cs.javacourse.search.query.AbstractIndexSearcher.LogicalCombination</node>
+    <node x="189.0" y="1197.0">hust.cs.javacourse.search.run.TestBuildIndex</node>
+    <node x="348.0" y="916.5">hust.cs.javacourse.search.parse.AbstractTermTupleFilter</node>
+    <node x="767.0" y="824.0">hust.cs.javacourse.search.query.AbstractIndexSearcher</node>
+    <node x="707.0" y="81.0">hust.cs.javacourse.search.index.AbstractPosting</node>
+    <node x="477.0" y="447.0">hust.cs.javacourse.search.index.AbstractDocument</node>
+    <node x="0.0" y="127.0">hust.cs.javacourse.search.index.AbstractIndex</node>
+    <node x="367.0" y="1197.0">hust.cs.javacourse.search.query.Sort</node>
+    <node x="248.5" y="824.0">hust.cs.javacourse.search.parse.AbstractTermTupleStream</node>
+    <node x="995.0" y="824.0">hust.cs.javacourse.search.util.StringSplitter</node>
+    <node x="924.0" y="447.0">hust.cs.javacourse.search.util.Config</node>
+    <node x="494.0" y="127.0">hust.cs.javacourse.search.index.AbstractTerm</node>
+    <node x="859.0" y="1051.0">hust.cs.javacourse.search.util.FileUtil</node>
+    <node x="655.75" y="0.0">hust.cs.javacourse.search.index.FileSerializable</node>
+    <node x="1021.0" y="150.5">hust.cs.javacourse.search.index.AbstractPostingList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hust.cs.javacourse.search.parse.AbstractTermTupleScanner" target="hust.cs.javacourse.search.parse.AbstractTermTupleStream">
+      <point x="0.0" y="-50.5" />
+      <point x="164.0" y="880.0" />
+      <point x="299.0" y="880.0" />
+      <point x="-50.5" y="15.5" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.index.impl.Index" target="hust.cs.javacourse.search.index.AbstractIndex">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.index.AbstractIndex" target="hust.cs.javacourse.search.index.FileSerializable">
+      <point x="0.0" y="-62.5" />
+      <point x="237.0" y="51.0" />
+      <point x="672.375" y="51.0" />
+      <point x="-49.875" y="15.5" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.index.AbstractPosting" target="hust.cs.javacourse.search.index.FileSerializable">
+      <point x="0.0" y="-108.5" />
+      <point x="854.0" y="61.0" />
+      <point x="738.875" y="61.0" />
+      <point x="16.625" y="15.5" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.parse.AbstractTermTupleFilter" target="hust.cs.javacourse.search.parse.AbstractTermTupleStream">
+      <point x="0.0" y="-39.0" />
+      <point x="535.0" y="880.0" />
+      <point x="400.0" y="880.0" />
+      <point x="50.5" y="15.5" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.query.AbstractIndexSearcher.LogicalCombination" target="hust.cs.javacourse.search.query.AbstractIndexSearcher">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.index.AbstractPostingList" target="hust.cs.javacourse.search.index.FileSerializable">
+      <point x="0.0" y="-39.0" />
+      <point x="1129.5" y="51.0" />
+      <point x="772.125" y="51.0" />
+      <point x="49.875" y="15.5" />
+    </edge>
+    <edge source="hust.cs.javacourse.search.index.AbstractTerm" target="hust.cs.javacourse.search.index.FileSerializable">
+      <point x="0.0" y="-62.5" />
+      <point x="590.5" y="61.0" />
+      <point x="705.625" y="61.0" />
+      <point x="-16.625" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0224358974358974" x="481.38081657107415" y="970.43974871502" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
